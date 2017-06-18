@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/coursera" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coursera"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:linksClickable="true"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/micro" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microsoft"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:linksClickable="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mooc"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOOC List"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:linksClickable="true"/>
+
+</LinearLayout>
